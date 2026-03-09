@@ -1,4 +1,4 @@
-# Federated Learning IDS — Privacy Attack Analysis
+# KC-TRAP — Privacy Attack Analysis on Federated Learning IDS
 
 An empirical study of **gradient inversion attacks** and **privacy defence mechanisms** on a Federated Learning-based Intrusion Detection System, built using the [Flower](https://github.com/adap/flower) framework and [UNSW-NB15](https://research.unsw.edu.au/projects/unsw-nb15-dataset) dataset.
 
@@ -24,7 +24,7 @@ This project extends the base FL-IDS implementation with a full privacy vulnerab
 ## Repository Structure
 
 ```
-fl-ids-privacy-attack/
+KC-TRAP/
 ├── data/                    # Place UNSW-NB15 CSV files here
 ├── utils/                   # Data loading and plot utilities
 ├── client.py                # FL client (Flower)
@@ -47,8 +47,8 @@ fl-ids-privacy-attack/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/fl-ids-privacy-attack.git
-cd fl-ids-privacy-attack
+git clone https://github.com/KushanavoRakshit/KC-TRAP.git
+cd KC-TRAP
 ```
 
 **2. Create virtual environment**
